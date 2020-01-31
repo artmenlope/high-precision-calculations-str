@@ -28,7 +28,7 @@ which should return
 '1.16803398874989484820458683436563811772030917980576'
 ```
 
-List of auxiliar functions:
+### List of auxiliar functions:
 - num_decims(num)
 - max_num_decims(num1, num2)
 - num_zeros_init(num)
@@ -37,7 +37,7 @@ List of auxiliar functions:
 - decim_modif_str(num1, num2)
 - make_pairs(txt)
 
-List of main functions:
+### List of main functions:
 - sum_str(num1, num2)
 - subt_str(num1, num2)
 - multiply_str(num1, num2)
