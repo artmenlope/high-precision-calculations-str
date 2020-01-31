@@ -28,9 +28,9 @@ def num_decims(num):
 def max_num_decims(num1, num2):
     
     """
-	Given two numbers 'num1' and 'num2', returns 
-	the maximum number of decimals found in them.
-	"""
+    Given two numbers 'num1' and 'num2', returns 
+    the maximum number of decimals found in them.
+    """
     
     num_max_decs = 0
     
@@ -60,9 +60,9 @@ def max_num_decims(num1, num2):
 def num_zeros_init(num):
 
     """
-	Counts the number of zeros at the beginning
-	of the number 'num'.
-	"""
+    Counts the number of zeros at the beginning
+    of the number 'num'.
+    """
     
     iszero = True
     num_zeros = 0
@@ -85,9 +85,9 @@ def num_zeros_init(num):
 def num_zeros_end(num):
 
     """
-	Counts the number of zeros at the end
-	of the number 'num'.
-	"""
+    Counts the number of zeros at the end
+    of the number 'num'.
+    """
     
     iszero = True
     num_zeros = 0
@@ -110,9 +110,9 @@ def num_zeros_end(num):
 def del_decim_zeros(num):
 
     """
-	If the number 'num' has decimals, deletes 
-	the excess of zeros at the end of it. 
-	"""
+    If the number 'num' has decimals, deletes 
+    the excess of zeros at the end of it. 
+    """
     
     if "." in num:  
         
@@ -234,12 +234,12 @@ def sum_str(num1, num2):
     # Put the decimal point.
     
     if max_num_decs != 0:
-        resultado = summ[:-max_num_decs] + "." + summ[-max_num_decs:]
+        result = summ[:-max_num_decs] + "." + summ[-max_num_decs:]
     
     elif max_num_decs == 0:
-        resultado = summ
+        result = summ
     
-    return resultado
+    return result
     
     
 
@@ -262,12 +262,12 @@ def subt_str(num1, num2):
     # Put the decimal point.
     
     if max_num_decs != 0:
-        resultado = subt[:-max_num_decs] + "." + subt[-max_num_decs:]
+        result = subt[:-max_num_decs] + "." + subt[-max_num_decs:]
     
     elif max_num_decs == 0:
-        resultado = subt
+        result = subt
     
-    return resultado    
+    return result    
 
 
 
