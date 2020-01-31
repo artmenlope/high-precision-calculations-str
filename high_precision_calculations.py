@@ -142,7 +142,7 @@ def decim_modif_str(num1, num2):
         Makes the length of both numbers 'num1' and 'num2' equal 
         while eliminating their decimal point.
     
-        Removes the decimal points and fills in with zeroes.
+        Removes the decimal points and fills in with zeros.
     """
 
     if ("." in num1) or ("." in num2):
@@ -163,7 +163,7 @@ def decim_modif_str(num1, num2):
             num1 += "0"*len(num2B)
             
         
-        elif ("." in num1) and ("." in num2): # error here?
+        elif ("." in num1) and ("." in num2): # error inside this elif?
     
             num1A, num1B = num1.split(".")
             num2A, num2B = num2.split(".")      
