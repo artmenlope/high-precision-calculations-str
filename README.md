@@ -11,8 +11,14 @@ path = "<path to the folder where the script is stored>"
 sys.path.insert(0, path)
 import high_precision_calculations
 ```
-  
-As a practical example, for calculating the value of the golden ratio <a href="https://www.codecogs.com/eqnedit.php?latex=\varphi&space;=&space;(1&plus;\sqrt{5})&space;/&space;2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\varphi&space;=&space;(1&plus;\sqrt{5})&space;/&space;2" title="\varphi = (1+\sqrt{5}) / 2" /></a>  with an accuracy of up to 50 decimal places we would type
+
+<!--
+<a href="https://www.codecogs.com/eqnedit.php?latex=\varphi&space;=&space;(1&plus;\sqrt{5})&space;/&space;2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\varphi&space;=&space;(1&plus;\sqrt{5})&space;/&space;2" title="\varphi = (1+\sqrt{5}) / 2" /></a> 
+-->
+
+<!-- Note: For Latex formulas in Github's Markdown see https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b -->
+
+As a practical example, for calculating the value of the golden ratio ![\varphi = (1+\sqrt{5}) / 2](https://render.githubusercontent.com/render/math?math=%5Cvarphi%20%3D%20(1%2B%5Csqrt%7B5%7D)%20%2F%202) with an accuracy of up to 50 decimal places we would type
 
 ```python
 divide_str(sum_str("1", sqrt_str("5", decimal_prec=50)), "2", decimal_prec=50)
