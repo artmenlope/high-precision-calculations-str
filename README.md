@@ -34,6 +34,8 @@ which should return
 '1.61803398874989484820458683436563811772030917980576'
 ```
 
+To see the output of the functions in this example using 15000 decimals see the file [phi_15000_decimals.txt](https://github.com/artmenlope/high-precision-calculations-str/blob/master/phi_15000_decimals.txt)
+
 ### List of auxiliar functions:
 - num_decims(num)
 - max_num_decims(num1, num2)
