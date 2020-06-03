@@ -45,10 +45,12 @@ To see the output of the functions in this example using 15000 decimals see the 
 - decim_modif_str(num1, num2)
 - make_pairs(txt)
 
+&nbsp;
+
 ### List of main functions:
-- sum_str(num1, num2)
-- subt_str(num1, num2)
-- multiply_str(num1, num2)
-- divide_str(dividend, divider, decimal_prec=16)
-- sqrt_str(num, decimal_prec=16)
-- power_str(num, powr)
+- sum_str(num1, num2)  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Addition.                      
+- subt_str(num1, num2) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Subtraction.
+- multiply_str(num1, num2) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &rarr; Multiplication.
+- divide_str(dividend, divider, decimal_prec=16) &emsp;&rarr; Division.
+- sqrt_str(num, decimal_prec=16) &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;&rarr; Square root.
+- power_str(num, powr) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Power _(the argument "powr" must be a positive integer)_.
