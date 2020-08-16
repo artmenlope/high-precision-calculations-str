@@ -1,4 +1,8 @@
 # high-precision-calculations-str
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/artmenlope/high-precision-calculations-str/blob/master/LICENSE.md)
+![Last Commit](https://img.shields.io/github/last-commit/artmenlope/high-precision-calculations-str)
+
 A set of _Python 3_ defined functions. They can provide high decimal precision calculations using numbers in _str_ format. The algorithms used are the same as those used when performing the calculations by hand. All using _Python 3_ built-in functions.
 
 ## Usage
