@@ -3,11 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/artmenlope/high-precision-calculations-str/blob/master/LICENSE.md)
 ![Last Commit](https://img.shields.io/github/last-commit/artmenlope/high-precision-calculations-str)
 
-A set of _Python 3_ defined functions. They can provide high decimal precision calculations using numbers in _str_ format. The algorithms used are the same as those used when performing the calculations by hand. All using _Python 3_ built-in functions.
+A set of Python 3 defined functions. They can provide high decimal precision calculations using numbers in _str_ format. The algorithms used are the same as those used when performing the calculations by hand. All using _Python 3_ built-in functions.
 
 ## Usage
 
-The functions can be imported, for example, by using 
+If you don't have the [`high_precision_calculations.py`](https://github.com/artmenlope/high-precision-calculations-str/blob/master/high_precision_calculations.py) script placed in your working directory, the functions can be imported, for example, by using 
 
 ```python
 import sys
@@ -38,23 +38,23 @@ which should return
 '1.61803398874989484820458683436563811772030917980576'
 ```
 
-To see the output of the functions in this example using 15000 decimals see the file [phi_15000_decimals.txt](https://github.com/artmenlope/high-precision-calculations-str/blob/master/phi_15000_decimals.txt)
+To see the output of the functions in this example using 15000 decimals see the file [`phi_15000_decimals.txt`](https://github.com/artmenlope/high-precision-calculations-str/blob/master/phi_15000_decimals.txt)
 
 ### List of auxiliar functions:
-- num_decims(num)
-- max_num_decims(num1, num2)
-- num_zeros_init(num)
-- num_zeros_end(num)
-- del_decim_zeros(num)
-- decim_modif_str(num1, num2)
-- make_pairs(txt)
+- `num_decims(num)`
+- `max_num_decims(num1, num2)`
+- `num_zeros_init(num)`
+- `num_zeros_end(num)`
+- `del_decim_zeros(num)`
+- `decim_modif_str(num1, num2)`
+- `make_pairs(txt)`
 
 &nbsp;
 
 ### List of main functions:
-- sum_str(num1, num2)  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Addition.                      
-- subt_str(num1, num2) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Subtraction.
-- multiply_str(num1, num2) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &rarr; Multiplication.
-- divide_str(dividend, divider, decimal_prec=16) &emsp;&rarr; Division.
-- sqrt_str(num, decimal_prec=16) &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;&rarr; Square root.
-- power_str(num, powr) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Power _(the argument "powr" must be a positive integer)_.
+- `sum_str(num1, num2)`  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Addition.                      
+- `subt_str(num1, num2)` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Subtraction.
+- `multiply_str(num1, num2)` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &rarr; Multiplication.
+- `divide_str(dividend, divider, decimal_prec=16)` &emsp;&rarr; Division.
+- `sqrt_str(num, decimal_prec=16)` &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;&rarr; Square root.
+- `power_str(num, powr)` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &rarr; Power _(the argument "powr" must be a positive integer)_.
