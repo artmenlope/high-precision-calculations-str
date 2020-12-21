@@ -55,10 +55,11 @@ To see the output of the functions in this example using 15000 decimals see the 
 
 ### List of main functions:
 
-- `sum_str(num1, num2)`    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;  &rarr; Addition.                      
-- `subt_str(num1, num2)`   &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &rarr; Subtraction.
-- `multiply_str(num1, num2)`  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &rarr; Multiplication.
-- `divide_str(dividend, divider, decimal_prec=16)`  &rarr; Division.
-- `sqrt_str(num, decimal_prec=16)`  &emsp; &emsp; &emsp; &emsp; &emsp;  &nbsp; &nbsp; &rarr; Square root.
-- `power_str(num, powr)`  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &rarr; Power _(the argument "powr" must be a positive integer)_.
-
+| **Function name**                                | **Use**                                                   |
+|--------------------------------------------------|-----------------------------------------------------------|
+| `sum_str(num1, num2)`                            | Addition.                                                 |
+| `subt_str(num1, num2)`                           | Subtraction.                                              |
+| `multiply_str(num1, num2)`                       | Multiplication.                                           |
+| `divide_str(dividend, divider, decimal_prec=16)` | Division.                                                 |
+| `sqrt_str(num, decimal_prec=16)`                 | Square root.                                              |
+| `power_str(num, powr)`                           | Power _(the argument "powr" must be a positive integer)_. |
